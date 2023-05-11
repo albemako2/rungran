@@ -100,21 +100,65 @@ header .active{
 	font-weight: 400;
 	font-size: 20px;
 }
+#welcome .btn-info:hover{
+
+	color: var(--color-azul-aqua);
+	background-color: #fff;
+	border-color: var(--color-azul-aqua);
+
+}
 
 #coaches {
+	background-color: #f3f3f3;
 	text-align: center;
 	
 }
 #coaches h1{
+	
 	color: #191919;
 	font-size: 60px;
 	font-weight: 900;
+	padding-bottom: 70px;
 }
-#Ccoaches h2{
-	color: #e6e8eb;
-	font-size: 60px;
-	padding-top: 50px;
-	padding-bottom:20px;
+#coaches h4{
+	color: #191919;
+	font-size: 18px;
+	padding-top: 30px;
+	padding-bottom:10px;
+	font-weight: bolder;
+}
+#coaches i{
+	font-size: 15px;;
+}
+
+#how-was{
+	background-color: #f3f3f3;
+	
+}
+#how-was .container{
+	background-color: #fff;
+}
+#how-was p{
+	padding-top: 80px;
+	padding-left: 90px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	font-size: 13px;
+}
+#how-was h1{
+	color: #191919;
+	padding-left: 90px;
+	font-size: 55px;
+	font-weight: bolder;
+}
+#gallery{
+	background-color: #f3f3f3;
+}
+#gallery h4{
+	color: #191919;
+	padding-bottom: 50px;
+	font-weight: bolder;
+	
 }
 #gallery img{
 	width: auto;
@@ -123,4 +167,43 @@ header .active{
 #gallery .col{
 	padding: 0px;
 	margin: 0px;
+}
+
+footer{
+	
+	background-color: #383737;
+	color: #FFF;
+	padding: 20px 0;
+	font-size: 14px;
+	font-weight: 100;
+	
+}
+footer li a{
+	border-width: thin;
+	padding-top:25px; 
+	padding-right: 0px;
+	border-style: solid;
+	width: 80px;
+	height: 80px;
+	line-height: 30px;
+	display: block;
+	text-align: center;
+	border-radius: 100% ;
+	color: #FFFFFF;
+	font-size: 20px;
+
+}
+footer a{
+	text-decoration: none !important;
+	padding-right: 80px;
+	font-size: 10px;
+}
+
+footer ul{
+	text-align: center;
+	padding:25px 0px;
+}
+
+footer img{
+	padding: 40px 0px;
 }

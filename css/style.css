@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root{
+	--color-azul-aqua: #19adf4;
+}
+
+body{
+	font-family: 'Montserrat', 'Open Sans', serif;
+	font-size: 16px;
+	color: #888;
+}
+h1,h2,h3,h4{
+	font-family: 'Oswald' ;
+}
+
+a{
+	color: #FFFFFF;
+}
+
+p{
+	color: #888585;
+}
+header{
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 10px 0;
+}
+
+header .active{
+	border-style:solid;
+	border-width: thin;
+	border-color:#FFFFFF;
+	border-radius: 100px;
+}
+#hero{
+	text-align: center;
+	background-image: url("../img/header_bg.jpg");
+	background-size: cover;
+	background-position: top center;
+	color: #FFFFFF;
+}
+#hero h3{
+	font-size: 20px;
+	font-weight: 400;
+	color: #FFFFFF
+}
+#hero h1{
+	font-size: 70px;
+	font-weight: 600;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: #FFFFFF
+}
+.overlay{
+	background-color: rgba(0,0,0,0.65);
+	padding: 130px 0;
+}
+
+.section-padding{
+	padding: 80px 0;
+}
+
+#welcome {
+	text-align: center;
+	
+}
+#welcome h1{
+	color: #191919;
+	font-size: 60px;
+	font-weight: 900;
+}
+
+#welcome h2{
+	color: #e6e8eb;
+	font-size: 60px;
+	padding-top: 50px;
+	padding-bottom:20px;
+}
+
+#welcome h4{
+	color: #191919;
+	font-size: 20px;
+		padding-bottom:20px;
+}
+#welcome .leftinfo{
+	text-align: left;
+}
+#welcome .rightinfo{
+	text-align: right;
+}
+#welcome img{
+	padding-top: 40px;
+}
+#welcome .btn-info{
+	border-radius: 100px;
+	padding: 25px 60px ;
+	font-family: 'Oswald' ;
+	color: #FFFFFF;
+	background-color: var(--color-azul-aqua);
+	font-weight: 400;
+	font-size: 20px;
+}
+
+#coaches {
+	text-align: center;
+	
+}
+#coaches h1{
+	color: #191919;
+	font-size: 60px;
+	font-weight: 900;
+}
+#Ccoaches h2{
+	color: #e6e8eb;
+	font-size: 60px;
+	padding-top: 50px;
+	padding-bottom:20px;
+}
+#gallery img{
+	width: auto;
+	height: 200px;
+}
+#gallery .col{
+	padding: 0px;
+	margin: 0px;
+}
